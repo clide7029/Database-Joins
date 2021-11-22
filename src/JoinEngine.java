@@ -3,12 +3,13 @@ public class JoinEngine {
         System.out.println("Hello, World!");
     }
 
+    private boolean nestLoopSort(Relation<Tuple<Object>> R, Relation<Tuple<Object>> S) {
 
-    private boolean nestLoopSort(){
+        Relation<Tuple<?>> T = new Relation<Tuple<?>>();
+        for (Tuple<Object> t : R.getValues()) {
 
-        
+        }
 
     }
-
 
 }
